@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# Copyright (c) 2026 James Cherti
+# Copyright (c) 2025-2026 James Cherti
 # URL: https://github.com/jamescherti/git-smartpull
 #
 # This program is free software: you can redistribute it and/or modify it under

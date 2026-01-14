@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Copyright (c) 2026 James Cherti
+# Copyright (c) 2025-2026 James Cherti
 # URL: https://github.com/jamescherti/git-smartpull
 #
 # This program is free software: you can redistribute it and/or modify it under
@@ -20,7 +20,7 @@ cd "$(dirname "${BASH_SOURCE[0]}")"
 export PYTHONPATH="$(pwd)"
 python -m coverage run -m \
   pytest -v -v --cov=git_smartpull --cov=tests \
-    --cov-report=term \
-    --cov-report=html:htmlcov \
-    tests/test_*.py
+  --cov-report=term \
+  --cov-report=html:htmlcov \
+  tests/test_*.py
 python -m coverage json
