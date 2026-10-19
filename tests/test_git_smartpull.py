@@ -20,7 +20,4 @@
 
 from pathlib import Path
 
-import git_smartpull
-import pytest
-
-DATA_PATH = Path(".").joinpath("tests", "data").absolute()
+DATA_PATH = Path().joinpath("tests", "data").absolute()
